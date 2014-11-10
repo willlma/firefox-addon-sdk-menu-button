@@ -151,6 +151,7 @@ function create(options) {
       });
 
       node.addEventListener('click', function(event) {
+        if (event.button!==0) return;
         var menu;
         if (event.originalTarget.nodeName=='toolbarbutton')
           menu = true;
