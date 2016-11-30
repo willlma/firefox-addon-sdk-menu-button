@@ -1,3 +1,13 @@
+Given the move towards web extensions and the deprecation of certain Add-on SDK features, I am no longer actively working on this. 
+
+From [the announcement](https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/)
+>We will also continue supporting SDK add-ons **as long as they don’t use require(‘chrome’) or some of the low-level APIs that provide access to XUL elements**.
+
+Emphasis mine. This is exactly what this custom button did. Old Readme below
+
+---------
+
+
 Menu Button For Firefox add-on SDK
 ==================================
 
